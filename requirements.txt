@@ -41,4 +41,5 @@ typing-extensions==3.10.0.0
 urllib3==1.25.9
 yarl==1.6.3
 gitpython>=3.1.14
+wget
 
