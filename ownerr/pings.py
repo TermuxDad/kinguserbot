@@ -14,5 +14,5 @@ async def pinger(_, message):
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     await message.edit_text(
-        f"**█▀█ █▀█ █▄░█ █▀▀ █ \n█▀▀ █▄█ █░▀█ █▄█ ▄**\n ➲ `{ms}` \n ➲",
+        f"**🏓 Pong!**\n 🛠️ `{ms}` \n KingBoT",
     )
